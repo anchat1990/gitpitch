@@ -2,7 +2,7 @@
 
 #### Even the scary parts
 
----?image=assets/image/code.jpg&opacity=100
+---?image=assets/image/code.jpg&opacity=70
 
 ### First, a bit about my journey so far
 
