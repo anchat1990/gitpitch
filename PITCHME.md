@@ -1,6 +1,6 @@
-# Understanding Git
+### Understanding Git
 
-### Even the scary parts
+#### Even the scary parts
 
 ---
 
