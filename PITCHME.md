@@ -4,7 +4,7 @@
 
 ---?image=assets/image/code.jpg&opacity=100
 
-## First, a bit about my story
+### First, a bit about my journey so far
 
 ---
 
