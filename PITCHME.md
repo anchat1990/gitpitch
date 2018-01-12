@@ -7,7 +7,7 @@
 ## A bit about my story
 
 ---?image=assets/image/coffee_computer.jpg&opacity=100
-
+![story](assets/image/coffee_computer.jpg)
 ---
 
 <br>
