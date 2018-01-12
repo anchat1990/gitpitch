@@ -23,7 +23,12 @@
 
 - Worked on open source Beaker project |
 - Small team |
-- Could no longer get away with poor git practices |
+- Less scared of git |
+
+---
+### Git Branch
+
+![Test](assets/image/test-lc.png)
 
 ---
 
