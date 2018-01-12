@@ -31,7 +31,9 @@ html:-moz-full-screen-ancestor {
   max-height: 50vh !important;
   border-radius: 10px;
 }
-
+.reveal .slides {
+    text-align: right;
+}
 .reveal .slides section .code-presenting-annotation {
   color: white;
   background: #1f1c18;
@@ -62,4 +64,3 @@ html:-moz-full-screen-ancestor {
 .gp-contact { font-size : 1.4em; }
 
 .gp-download { margin-left: 10px; }
-
