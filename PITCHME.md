@@ -2,32 +2,30 @@
 
 #### Even the scary parts
 
----?image=assets/image/code.jpg&opacity=1
+<!-- ---?image=assets/image/code.jpg&opacity=1 -->
 
-### First,
-### a bit about
-### my journey
-### so far
+### First, a bit about my journey so far
 
 ---
 
 ### November 2015
 #### Graduate Software Engineer @ Boeing
 
-- Never used version control before
-- Big development team
-- Very scared of git
+- Never used version control before |
+- Big development team |
+- Very scared of git |
 
 ---
 
 ### July 2017
 #### Software Engineer @ RedHat
 
-- Worked on open source Beaker project
-- Small team
-- Could no longer get away with poor git practices
+- Worked on open source Beaker project |
+- Small team |
+- Could no longer get away with poor git practices |
 
 ---
+
 ## Template Features
 
 - Code Presenting |
