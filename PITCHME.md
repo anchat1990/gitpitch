@@ -11,14 +11,23 @@
 
 ---
 
-<br>
+### November 2015
+#### Graduate Software Engineer @ Boeing
 
-@fa[arrows gp-tip](Press F to go Fullscreennnnnn)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
+- Never used version control before
+- Big development team
+- Very scared of git
 
 ---
 
+### July 2017
+#### Software Engineer @ RedHat
+
+- Worked on open source Beaker project
+- Small team
+- Could no longer get away with poor git practices
+
+---
 ## Template Features
 
 - Code Presenting |
