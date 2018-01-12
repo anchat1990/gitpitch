@@ -28,7 +28,7 @@
 ---
 ### Git Branch
 
-![Test](assets/image/test-lc2.jpeg)
+![Test](assets/image/test-lc.jpeg)
 
 ---
 
