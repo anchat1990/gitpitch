@@ -2,7 +2,7 @@
 
 #### Even the scary parts
 
----
+---?image=assets/image/coffee_computer.jpg&opacity=100
 
 ## First, a bit about my story
 
