@@ -1,6 +1,6 @@
-# Black
+# Understanding Git
 
-### A GitPitch Presentation Template
+### Even the scary parts
 
 ---
 
@@ -23,6 +23,9 @@
 - Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
 
+---
+![Test](assets/image/gitpitch-audience.jpg)
+---
 ---?code=src/go/server.go&lang=golang&title=Golang File
 
 @[1,3-6](Present code found within any repo source file.)
@@ -73,7 +76,7 @@ http.createServer(function (request, response) {
 ## Template Help
 
 - [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
+  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides)
 - [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
 - [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
 - [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
@@ -105,4 +108,3 @@ http.createServer(function (request, response) {
 
 ### Get your presentation started!
 ### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/black)
-
