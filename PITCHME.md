@@ -5,8 +5,9 @@
 ---?image=assets/image/code.jpg&opacity=1
 
 ### First,
-### a bit about my
-### journey so farrr
+### a bit about
+### my journey
+### so far
 
 ---
 
