@@ -53,13 +53,18 @@
 - Stores which filenames correspond to which blob, access modes...
 - Points to the blob(s)
 
-+++
-<!-- .slide: data-background-transition="none" -->
-![0](image=assets/image/tree.jpeg)
-+++
-<!-- .slide: data-background-transition="none" -->
-![1](image=assets/image/tree2.jpeg)
-+++
+![0](assets/image/tree.jpeg)
+
+---
+ 
+## Tree object
+
+- Lists contents of directory
+- Stores which filenames correspond to which blob, access modes...
+- Points to the blob(s)
+
+![1](assets/image/tree2.jpeg)
+
 
 ---
 
