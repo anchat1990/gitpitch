@@ -1,8 +1,8 @@
 ### Understanding Git
 
-#### Even the scary parts :anguished:
+#### Even the scary parts 
 
-:heart:
+![scared](assets/image/scared.jpg)
 
 Note:
 Does the emoji show up
