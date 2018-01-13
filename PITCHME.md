@@ -47,11 +47,13 @@
 
 ---
 
-## Tree
+## Tree object
 
-- Git's representation of the version of a file
+- Lists contents of directory
+- Stores which filenames correspond to which blob, access modes...
+- Points to the blobs
 
-![Blob](assets/image/blob.jpeg)
+![Blob](assets/image/tree.jpeg)
 
 ---
 
