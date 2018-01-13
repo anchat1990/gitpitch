@@ -12,9 +12,9 @@
 ### November 2015
 #### Graduate Software Engineer @ Boeing
 
-- Never used version control before | |
+- Never used version control before | 
 - Very scared of git |
-- Used Bitbucket for code reviews
+- Used Bitbucket for code reviews |
 
 ---
 
@@ -22,8 +22,8 @@
 #### Software Engineer @ RedHat
 
 - Worked on open source Beaker project |
-- Use Gerrit for code reviews
-- Now less scared of git (i think...)
+- Use Gerrit for code reviews |
+- Now less scared of git (i think...) |
 
 ---
 
@@ -36,6 +36,22 @@
 ---
 
 ## Storage
+
+---
+
+## Blob
+
+- Git's representation of the version of a file
+
+![Blob](assets/image/blob.jpeg)
+
+---
+
+## Tree
+
+- Git's representation of the version of a file
+
+![Blob](assets/image/blob.jpeg)
 
 ---
 
