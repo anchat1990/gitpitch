@@ -53,7 +53,12 @@
 - Stores which filenames correspond to which blob, access modes...
 - Points to the blob(s)
 
-![0](assets/image/tree.jpeg)
+<!--![0](assets/image/tree.jpeg)-->
+
++++?image=assets/image/tree.png
+<!-- .slide: data-background-transition="none" -->
++++?image=assets/image/tree2.png
+<!-- .slide: data-background-transition="none" -->
 
 ---
  
