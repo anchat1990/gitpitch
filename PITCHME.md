@@ -55,20 +55,17 @@
 
 <!--![0](assets/image/tree.jpeg)-->
 
-+++?image=assets/image/tree.png
+<!--+++?image=assets/image/tree.png-->
 <!-- .slide: data-background-transition="none" -->
-+++?image=assets/image/tree2.png
+<!--+++?image=assets/image/tree2.png-->
 <!-- .slide: data-background-transition="none" -->
 
----
- 
-## Tree object
-
-- Lists contents of directory
-- Stores which filenames correspond to which blob, access modes...
-- Points to the blob(s)
-
-![1](assets/image/tree2.jpeg)
++++
+<!-- .slide: data-background-transition="none" -->
+![0](image=assets/image/tree.png)
++++
+<!-- .slide: data-background-transition="none" -->
+![1](image=assets/image/tree2.png)
 
 
 ---
