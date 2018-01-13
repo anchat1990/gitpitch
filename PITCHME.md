@@ -12,9 +12,9 @@
 ### November 2015
 #### Graduate Software Engineer @ Boeing
 
-- Never used version control before |
-- Big development team |
+- Never used version control before | |
 - Very scared of git |
+- Used Bitbucket for code reviews
 
 ---
 
@@ -22,13 +22,26 @@
 #### Software Engineer @ RedHat
 
 - Worked on open source Beaker project |
-- Small team |
-- Less scared of git |
+- Use Gerrit for code reviews
+- Now less scared of git (i think...)
 
 ---
+
+### Topics we'll cover...
+
+- How Git's storage works
+- what is a branch
+- rebase Vs. merge
+
+---
+
+## Storage
+
+---
+
 ### Git Branch
 
-![Test](assets/image/test-lc-2.jpeg)
+![Test](assets/image/git-branch.jpeg)
 
 ---
 
