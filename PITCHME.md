@@ -2,8 +2,6 @@
 
 #### Even the scary parts 
 
-![scared](assets/image/scared.jpg)
-
 Note:
 Does the emoji show up
 
@@ -66,10 +64,14 @@ Does the emoji show up
 
 ## Commit object
 
-- 
-![0](assets/image/tree2.jpeg)
+- Contains commit metadata
+- Points to corresponding tree object 
+- Also points to any parent commit(s)
 
+![0](assets/image/commit.jpeg)
 
+Note:
+So it can know the state of the files at the time of the commit. No parent means initial commit
 ---
 ### Git Branch
 
