@@ -2,6 +2,8 @@
 
 #### Even the scary parts :anguished:
 
+:heart:
+
 Note:
 Does the emoji show up
 
