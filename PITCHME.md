@@ -51,12 +51,6 @@
 
 - Lists contents of directory
 - Stores which filenames correspond to which blob, access modes...
-<<<<<<< HEAD
-- Points to the blobs
-
-![Blob](assets/image/tree.jpeg)
-
-=======
 - Points to the blob(s)
 
 +++
@@ -66,7 +60,7 @@
 <!-- .slide: data-background-transition="none" -->
 ![1](image=assets/image/tree2.jpeg)
 +++
->>>>>>> added tree stuff
+
 ---
 
 ### Git Branch
