@@ -58,6 +58,14 @@
 
 ---
 
+
+## Commit object
+
+- 
+![0](assets/image/tree2.jpeg)
+
+
+---
 ### Git Branch
 
 ![Test](assets/image/git-branch.jpeg)
