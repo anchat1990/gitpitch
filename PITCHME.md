@@ -1,6 +1,9 @@
 ### Understanding Git
 
-#### Even the scary parts
+#### Even the scary parts :anguished:
+
+Note:
+Does the emoji show up
 
 ---
 <!-- ---?image=assets/image/code.jpg&opacity=1 -->
