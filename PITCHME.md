@@ -95,7 +95,7 @@ Also called refs or heads, Its like a post it note or a bookmark that says "im w
 
 ### Git Branch (cont.)
 
-`git checkout -b my-feature master`
+\>`git checkout -b my-feature master`
 
 ![head-ref](assets/image/head-ref.jpeg)
 
@@ -127,7 +127,7 @@ When you updated master by pulling
 
 ### Let's try merging
 
-`git merge master`
+\>`git merge master`
 
 
 ![master-new-commit-merge](assets/image/master-new-commit-merge.jpeg)
@@ -166,7 +166,7 @@ we keep merging, and the git history gets littered with merge commits. Because i
 ---
 
 ### Let's try rebasing this time 
-`git rebase master` 
+\>`git rebase master` 
 
 ![both-new-commit-rebase](assets/image/both-new-commit-rebase.jpeg)
 
@@ -184,9 +184,9 @@ A new commit with same changes as E but a different parent. Old commit is garbag
 
 ### Some Tips...
 - Interactive rebase to amend old commit
-`git rebase -i master`
+\>`git rebase -i master`
 - Pulling with rebase strategy
-`git pull --rebase`
+\>`git pull --rebase`
 - "Squash"-ing commits with rebase
 
 
