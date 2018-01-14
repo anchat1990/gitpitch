@@ -2,9 +2,6 @@
 
 #### Even the scary parts 
 
-Note:
-Does the emoji show up
-
 ---
 <!-- ---?image=assets/image/code.jpg&opacity=1 -->
 
@@ -42,7 +39,8 @@ Does the emoji show up
 
 ---
 
-## Blob
+## Storage (contd.)
+### Blob
 
 - Git's representation of the version of a file
 
@@ -50,7 +48,9 @@ Does the emoji show up
 
 ---
 
-## Tree object
+
+## Storage (contd.)
+### Tree object
 
 - Lists contents of directory
 - Stores which filenames correspond to which blob, access modes...
@@ -62,17 +62,29 @@ Does the emoji show up
 ---
 
 
-## Commit object
+## Storage (contd.)
+### Commit object
 
 - Contains commit metadata
 - Points to corresponding tree object 
 - Also points to any parent commit(s)
 
-![0](assets/image/commit.jpeg)
+![Commit](assets/image/commit.jpeg)
 
 Note:
 So it can know the state of the files at the time of the commit. No parent means initial commit
 ---
+
+
+## Storage (contd.)
+
+- Subsequent commits point to corresponding parent
+
+
+![Many-Commits](assets/image/many-commits.jpeg)
+
+---
+
 ### Git Branch
 
 ![Test](assets/image/git-branch.jpeg)
