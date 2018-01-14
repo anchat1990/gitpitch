@@ -101,10 +101,19 @@ Also called refs or heads, Its like a post it note or a bookmark that says "im w
 
 - HEAD ref points to active branch
 
+`git checkout -b my-feature`
 
 ![head-ref](assets/image/head-ref.jpeg)
 
 ---
+
+
+## Rebase & Merge
+
+--
+
+
+
 ## Template Features
 
 - Code Presenting |
