@@ -111,9 +111,40 @@ now armed with this knowledge lets take a look at rebase and merge and how they 
 
 ---
 
-- Situation after creating the branch
+### Situation after creating the branch
 
 ![branch1](assets/image/branch1.jpeg)
+
+---
+
+### Case 1: New commit in master
+
+![master-new-commit](assets/image/master-new-commit.jpeg)
+
+Note:
+When you updated master by pulling
+---
+
+### Lets try merging
+
+`git merge master`
+
+
+---
+
+### Case 2: Both my-feature and master have new commits
+
+---
+
+### Lets try merging again
+
+---
+
+### Case 2 keeps happening
+
+---
+
+
 
 
 ## Template Features
