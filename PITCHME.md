@@ -165,8 +165,8 @@ we keep merging, and the git history gets littered with merge commits. Because i
 
 ---
 
-### Let's try rebasing this time
-`git rebase master`
+### Let's try rebasing this time 
+`git rebase master` |
 
 ![both-new-commit-rebase](assets/image/both-new-commit-rebase.jpeg)
 
