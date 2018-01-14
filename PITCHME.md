@@ -209,11 +209,13 @@ It is possible to recover from that. But you dont want to have to do the additio
 
 <br>
 
-@fa[twitter gp-contact](@gitpitch)
+@fa[twitter gp-contact](@AnweshaChatte12)
 
-@fa[github gp-contact](gitpitch)
+@fa[github gp-contact](anchat1990)
 
-@fa[medium gp-contact](@gitpitch)
+@fa[medium gp-contact](@anweshachatterjee)
+
+@fa[linkedin gp-contact](/chatterjeeanwesha)
 
 ---?image=assets/image/gitpitch-audience.jpg&opacity=100
 
