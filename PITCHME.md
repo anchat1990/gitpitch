@@ -144,6 +144,8 @@ The post it gets moved
 
 ### Lets try merging again
 
+![both-new-commit-merge](assets/image/both-new-commit-merge.jpeg)
+
 ---
 
 ### Case 2 keeps happening
