@@ -79,7 +79,7 @@ So it can know the state of the files at the time of the commit. No parent means
 ---
 
 
-## Storage
+## Branch
 
 ---
 
@@ -104,6 +104,7 @@ Also called refs or heads, Its like a post it note or a bookmark that says "im w
 
 ![head-ref](assets/image/head-ref.jpeg)
 
+---
 ## Template Features
 
 - Code Presenting |
