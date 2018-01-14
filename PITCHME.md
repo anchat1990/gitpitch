@@ -125,14 +125,20 @@ Note:
 When you updated master by pulling
 ---
 
-### Lets try merging
+### Let's try merging
 
 `git merge master`
 
 
+![master-new-commit-merge](assets/image/master-new-commit-merge.jpeg)
+
+Note:
+The post it gets moved
 ---
 
 ### Case 2: Both my-feature and master have new commits
+
+![both-new-commit](assets/image/both-new-commit.jpeg)
 
 ---
 
