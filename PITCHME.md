@@ -39,7 +39,6 @@
 
 ---
 
-## Storage (contd.)
 ### Blob
 
 - Git's representation of the version of a file
@@ -49,7 +48,6 @@
 ---
 
 
-## Storage (contd.)
 ### Tree object
 
 - Lists contents of directory
@@ -61,8 +59,6 @@
 
 ---
 
-
-## Storage (contd.)
 ### Commit object
 
 - Contains commit metadata
@@ -74,9 +70,6 @@
 Note:
 So it can know the state of the files at the time of the commit. No parent means initial commit
 ---
-
-
-## Storage (contd.)
 
 - Subsequent commits point to corresponding parent
 
