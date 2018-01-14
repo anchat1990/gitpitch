@@ -155,7 +155,7 @@ F is a merge commit. see that it has 2 parents. it incorporates changes from bot
 
 <!--image -->
 Note:
-we keep merging, and the git history gets littered with merge commits
+we keep merging, and the git history gets littered with merge commits 
 ---
 
 ### Case 2: Both my-feature and master have new commits
