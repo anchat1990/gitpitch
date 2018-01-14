@@ -151,9 +151,10 @@ F is a merge commit. see that it has 2 parents. it incorporates changes from bot
 
 ---
 
-### Case 2 keeps happening
+### After multiple commits & merges 
 
-<!--image -->
+![many-merges](assets/image/many-merges.jpeg)
+
 Note:
 we keep merging, and the git history gets littered with merge commits 
 ---
