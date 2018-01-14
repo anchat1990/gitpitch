@@ -156,7 +156,7 @@ F is a merge commit. see that it has 2 parents. it incorporates changes from bot
 ![many-merges](assets/image/many-merges.jpeg)
 
 Note:
-we keep merging, and the git history gets littered with merge commits 
+we keep merging, and the git history gets littered with merge commits. Because i used gerrit, i was only allowed to have 1 commit per CR, and thats why i had to learn how to rebase. 
 ---
 
 ### Case 2: Both my-feature and master have new commits
@@ -171,7 +171,7 @@ we keep merging, and the git history gets littered with merge commits
 ![both-new-commit-rebase](assets/image/both-new-commit-rebase.jpeg)
 
 Note:
-A new commit with same changes as E but a different parent. Old commit is garbage collected. pointer moves to new commit. git rebase also works with multiple commits.
+A new commit with same changes as E but a different parent. Old commit is garbage collected. pointer moves to new commit. git rebase also works with multiple commits. 
 
 ---
 
@@ -180,6 +180,29 @@ A new commit with same changes as E but a different parent. Old commit is garbag
 - Merge results in a "stitching pattern"
 - Rebase results in a "linear" history
 
+---
+
+### Some Tips...
+- Interactive rebase to amend old commit
+`git rebase -i master`
+- Pulling with rebase strategy
+`git pull --rebase`
+- "Squash"-ing commits with rebase
+
+
+Note: 
+normally git pull uses merge, but you can specify that it use rebase instead 
+
+---
+
+### Warning
+
+Do not rebase public branches (that others have pushed more commits to). 
+It will seem like you've "lost" some commits (don't worry - you haven't),
+and you will panic.
+
+Note:
+It is possible to recover from that. But you dont want to have to do the additional work.
 ---
 
 ### Questions?
