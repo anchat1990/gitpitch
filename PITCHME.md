@@ -78,11 +78,31 @@ So it can know the state of the files at the time of the commit. No parent means
 
 ---
 
-### Git Branch
 
-![Test](assets/image/git-branch.jpeg)
+## Storage
 
 ---
+
+### Git Branch
+
+- A lightweight movable pointer to a commit 
+- When you add a commit, the pointer moves to new commit
+- Can have multiple branches
+
+
+![Git-branch](assets/image/git-branch.jpeg)
+
+Note:
+Also called refs or heads, Its like a post it note or a bookmark that says "im working here". Not stored in history. You can have more than one pointer - more than one branch
+
+---
+
+### Git Branch (cont.)
+
+- HEAD ref points to active branch
+
+
+![head-ref](assets/image/head-ref.jpeg)
 
 ## Template Features
 
