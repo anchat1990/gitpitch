@@ -3,7 +3,6 @@
 #### Even the scary parts 
 
 ---
-<!-- ---?image=assets/image/code.jpg&opacity=1 -->
 
 ### First, a bit about my journey so far
 
@@ -47,7 +46,6 @@
 
 ---
 
-
 ### Tree object
 
 - Lists contents of directory
@@ -55,7 +53,6 @@
 - Points to the blob(s)
 
 ![0](assets/image/tree2.jpeg)
-
 
 ---
 
@@ -78,7 +75,6 @@ So it can know the state of the files at the time of the commit. No parent means
 
 ---
 
-
 ## Branch
 
 ---
@@ -99,19 +95,25 @@ Also called refs or heads, Its like a post it note or a bookmark that says "im w
 
 ### Git Branch (cont.)
 
-- HEAD ref points to active branch
-
-`git checkout -b my-feature`
+`git checkout -b my-feature master`
 
 ![head-ref](assets/image/head-ref.jpeg)
 
----
+Note:
+branched from master. HEAD ref points to active branch. 
 
+---
 
 ## Rebase & Merge
 
---
+Note: 
+now armed with this knowledge lets take a look at rebase and merge and how they work
 
+---
+
+- Situation after creating the branch
+
+![branch1](assets/image/branch1.jpeg)
 
 
 ## Template Features
