@@ -133,7 +133,7 @@ When you updated master by pulling
 ![master-new-commit-merge](assets/image/master-new-commit-merge.jpeg)
 
 Note:
-The post it gets moved
+The post it gets moved. You will hear the words fast forward merge for this scenario.
 ---
 
 ### Case 2: Both my-feature and master have new commits
@@ -146,11 +146,28 @@ The post it gets moved
 
 ![both-new-commit-merge](assets/image/both-new-commit-merge.jpeg)
 
+Note:
+F is a merge commit. see that it has 2 parents. it incorporates changes from both D and E
+
 ---
 
 ### Case 2 keeps happening
 
+<!--image -->
+Note:
+we keep merging, and the git history gets littered with merge commits
 ---
+
+### Case 2: Both my-feature and master have new commits
+<!--old image-->
+
+---
+
+### Let's try rebasing this time
+`git rebase master`
+
+---
+
 
 
 
