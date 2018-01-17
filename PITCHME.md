@@ -123,8 +123,7 @@ branched from master. HEAD ref points to active branch.
 Note:
 now armed with this knowledge lets take a look at rebase and merge and how they work
 
----
-<!-- ![push-force](assets/image/git-push-force.jpg) -->
+
 ---?image=assets/image/git-push-force.jpg&size=auto 90%
 
 Note:
