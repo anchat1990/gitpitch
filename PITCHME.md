@@ -22,7 +22,7 @@ Open github
 
 
 ---
-![Blob](assets/image/git-commit.png)
+![Git_commit](assets/image/git-commit.jpg)
 ---
 
 ### July 2017
