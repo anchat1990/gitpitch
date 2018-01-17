@@ -25,6 +25,9 @@ Open github
 ![Git_commit](assets/image/git-commit.jpg)
 ---
 
+---
+![Git_commit_last_night](assets/image/commit-msg-last-night.jpg)
+---
 ### July 2017
 #### Software Engineer @ RedHat
 
