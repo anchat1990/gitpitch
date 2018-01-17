@@ -37,7 +37,7 @@ as these...
 ![Git_commit_last_night](assets/image/commit-msg-last-night.jpg)
 ---
 ### July 2017
-#### Software Engineer @ RedHat
+#### Software Engineer @ Red Hat
 
 - Worked on open source beaker-project |
 - Use Gerrit for code reviews |
@@ -90,7 +90,9 @@ git works under the hood. So...
 ![Commit](assets/image/commit.jpeg)
 
 Note:
-So it can know the state of the files at the time of the commit. No parent means initial commit
+the pointer to tree and blobs means it can know the state of the files at the
+time of the commit, and it can recreate it from knowledge of the commit itself.
+No parent means initial commit. More than one means merge commit.
 ---
 
 - Subsequent commits point to corresponding parent
