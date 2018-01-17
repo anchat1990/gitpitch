@@ -19,6 +19,9 @@
 Note:
 bitbucket is similar to github in its pull request style. pycharm helped provide and abstraction and i never really needed to look at the git fundamentals.
 Open github
+
+
+---?image=assets/src/git_commit.png
 ---
 
 ### July 2017
@@ -29,7 +32,7 @@ Open github
 - Now less scared of git (i think...) |
 
 Note:
-Gerrit has a single commit CR model. open gerrit. 
+Gerrit has a single commit CR model. open gerrit.
 
 ---
 
