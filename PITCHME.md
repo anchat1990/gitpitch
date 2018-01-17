@@ -21,7 +21,7 @@ bitbucket is similar to github in its pull request style. pycharm helped provide
 Open github
 
 
----?image=assets/src/git_commit.png
+---?image=assets/image/git-commit.png
 ---
 
 ### July 2017
