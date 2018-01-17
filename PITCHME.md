@@ -6,6 +6,7 @@
 
 ### First, a bit about my journey so far
 
+<!-- about me ?-->
 ---
 
 ### November 2015
@@ -123,6 +124,11 @@ Note:
 now armed with this knowledge lets take a look at rebase and merge and how they work
 
 ---
+![push-force](assets/image/git-push-force.jpg)
+
+Note:
+Dont do this.
+---
 
 ### Situation after creating the branch
 
@@ -222,11 +228,11 @@ It is possible to recover from that. But you dont want to have to do the additio
 
 ### Motivation
 
-git is very forgiving, and its very easy to get out of trouble for the most part. 
+git is very forgiving, and its very easy to get out of trouble for the most part.
 
 - you cannot "lose" a commit |
 - work on a branch and "test it out" |
-- use reflog | 
+- use reflog |
 
 Note:
 use cherry-pick
@@ -246,6 +252,5 @@ use cherry-pick
 
 @fa[linkedin gp-contact](/chatterjeeanwesha)
 
----?image=assets/image/gitpitch-audience.jpg&opacity=100
-
 ### Thank you!
+![i-know-git-rebase](assets/image/i-know-git-rebase.jpg)
