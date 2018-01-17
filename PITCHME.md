@@ -11,13 +11,8 @@ parts - which for me, was mainly git-rebase.
 
 ### First, a bit about my journey so far
 
-<<<<<<< HEAD
-<!-- about me ?-->
-||||||| merged common ancestors
-=======
 Note:
 but first I'd like to tell you about my git journey so far
->>>>>>> some review comments
 ---
 
 ### November 2015
