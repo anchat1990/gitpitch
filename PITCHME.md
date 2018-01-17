@@ -224,9 +224,6 @@ It is possible to recover from that. But you dont want to have to do the additio
 
 git is very forgiving, and its very easy to get out of trouble for the most part. 
 
----
-
-### Motivation
 - you cannot "lose" a commit |
 - work on a branch and "test it out" |
 - use reflog | 
