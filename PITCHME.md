@@ -229,7 +229,8 @@ git is very forgiving, and its very easy to get out of trouble for the most part
 ### Motivation
 - you cannot "lose" a commit |
 - work on a branch and "test it out" |
-- `git reflog` |
+- use reflog | 
+
 Note:
 use cherry-pick
 
