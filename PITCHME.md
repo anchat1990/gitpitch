@@ -1,6 +1,6 @@
 ### Understanding Git
 
-#### Even the scary parts 
+#### Even the scary parts
 
 ---
 
@@ -11,10 +11,14 @@
 ### November 2015
 #### Graduate Software Engineer @ Boeing
 
-- Never used version control before | 
+- Never used version control before |
 - Very scared of git |
+- Primarily used PyCharm tools |
 - Used Bitbucket for code reviews |
 
+Note:
+bitbucket is similar to github in its pull request style. pycharm helped provide and abstraction and i never really needed to look at the git fundamentals.
+Open github
 ---
 
 ### July 2017
@@ -23,6 +27,9 @@
 - Worked on open source Beaker project |
 - Use Gerrit for code reviews |
 - Now less scared of git (i think...) |
+
+Note:
+Gerrit has a single commit CR model. open gerrit. 
 
 ---
 
@@ -59,7 +66,7 @@
 ### Commit object
 
 - Contains commit metadata
-- Points to corresponding tree object 
+- Points to corresponding tree object
 - Also points to any parent commit(s)
 
 ![Commit](assets/image/commit.jpeg)
@@ -81,7 +88,7 @@ So it can know the state of the files at the time of the commit. No parent means
 
 ### Git Branch
 
-- A lightweight movable pointer to a commit 
+- A lightweight movable pointer to a commit
 - When you add a commit, the pointer moves to new commit
 - Can have multiple branches
 
@@ -100,13 +107,13 @@ Also called refs or heads, Its like a post it note or a bookmark that says "im w
 ![head-ref](assets/image/head-ref.jpeg)
 
 Note:
-branched from master. HEAD ref points to active branch. 
+branched from master. HEAD ref points to active branch.
 
 ---
 
 ## Rebase & Merge
 
-Note: 
+Note:
 now armed with this knowledge lets take a look at rebase and merge and how they work
 
 ---
@@ -151,12 +158,12 @@ F is a merge commit. see that it has 2 parents. it incorporates changes from bot
 
 ---
 
-### After multiple commits & merges 
+### After multiple commits & merges
 
 ![many-merges](assets/image/many-merges.jpeg)
 
 Note:
-we keep merging, and the git history gets littered with merge commits. Because i used gerrit, i was only allowed to have 1 commit per CR, and thats why i had to learn how to rebase. 
+we keep merging, and the git history gets littered with merge commits. Because i used gerrit, i was only allowed to have 1 commit per CR, and thats why i had to learn how to rebase.
 ---
 
 ### Case 2: Both my-feature and master have new commits
@@ -165,13 +172,13 @@ we keep merging, and the git history gets littered with merge commits. Because i
 
 ---
 
-### Let's try rebasing this time 
-\> `git rebase master` 
+### Let's try rebasing this time
+\> `git rebase master`
 
 ![both-new-commit-rebase](assets/image/both-new-commit-rebase.jpeg)
 
 Note:
-A new commit with same changes as E but a different parent. Old commit is garbage collected. pointer moves to new commit. git rebase also works with multiple commits. 
+A new commit with same changes as E but a different parent. Old commit is garbage collected. pointer moves to new commit. git rebase also works with multiple commits.
 
 ---
 
@@ -190,14 +197,14 @@ A new commit with same changes as E but a different parent. Old commit is garbag
 - "Squash"-ing commits with rebase
 
 
-Note: 
-normally git pull uses merge, but you can specify that it use rebase instead 
+Note:
+normally git pull uses merge, but you can specify that it use rebase instead
 
 ---
 
 ### Warning
 
-Do not rebase public branches (that others have pushed more commits to). 
+Do not rebase public branches (that others have pushed more commits to).
 It will seem like you've "lost" some commits (don't worry - you haven't),
 and you will panic.
 
