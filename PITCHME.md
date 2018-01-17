@@ -124,6 +124,7 @@ Note:
 now armed with this knowledge lets take a look at rebase and merge and how they work
 
 ---
+### Dont do this
 ![push-force](assets/image/git-push-force.jpg)
 
 Note:
