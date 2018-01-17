@@ -252,5 +252,7 @@ use cherry-pick
 
 @fa[linkedin gp-contact](/chatterjeeanwesha)
 
+---
+
 ### Thank you!
 ![i-know-git-rebase](assets/image/i-know-git-rebase.jpg)
