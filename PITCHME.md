@@ -227,11 +227,11 @@ code review model that i was talking about before.
 
 ### Some Tips...
 - Interactive rebase to amend old commit
-<br></br>
+<br>
 \> `git rebase -i master`
 - "Squash"-ing commits with rebase
 - Pulling with rebase strategy
-<br></br>
+<br>
 \> `git pull --rebase`
 
 
