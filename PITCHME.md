@@ -2,11 +2,22 @@
 
 #### Even the scary parts
 
+Note:
+This is a story about how i pushed myself to go further than the git basics -
+like clone, add, commit, push, pull... and learnt how to be okay with the scary
+parts - which for me, was mainly git-rebase.
+
 ---
 
 ### First, a bit about my journey so far
 
+<<<<<<< HEAD
 <!-- about me ?-->
+||||||| merged common ancestors
+=======
+Note:
+but first I'd like to tell you about my git journey so far
+>>>>>>> some review comments
 ---
 
 ### November 2015
@@ -18,9 +29,11 @@
 - Used Bitbucket for code reviews |
 
 Note:
-bitbucket is similar to github in its pull request style. pycharm helped provide and abstraction and i never really needed to look at the git fundamentals.
-Open github
-
+bitbucket is similar to github in its pull request style.
+pycharm helped provide an abstraction and i never really needed to look at the
+git fundamentals. Github allows more than one commit to be associated with a
+pull request !Open github! My commit messages were pretty bad too but not as bad
+as these...
 
 ---
 ![Git_commit](assets/image/git-commit.jpg)
@@ -31,20 +44,23 @@ Open github
 ### July 2017
 #### Software Engineer @ RedHat
 
-- Worked on open source Beaker project |
+- Worked on open source beaker-project |
 - Use Gerrit for code reviews |
-- Now less scared of git (i think...) |
+- Now less scared of git (I think...) |
 
 Note:
-Gerrit has a single commit CR model. open gerrit.
+Gerrit has a single commit CR model. You can have only one commit associated
+with a CR. This forced me to learn how to rebase as i couldnt put merge commits
+into my PR !open gerrit! In order to understand rebase I needed to understand how
+git works under the hood. So...
 
 ---
 
 ### Topics we'll cover...
 
-- How Git's storage works
-- what is a branch
-- rebase Vs. merge
+- How git's storage works
+- What is a branch
+- Rebase Vs. merge
 
 ---
 
@@ -103,7 +119,9 @@ So it can know the state of the files at the time of the commit. No parent means
 ![Git-branch](assets/image/git-branch.jpeg)
 
 Note:
-Also called refs or heads, Its like a post it note or a bookmark that says "im working here". Not stored in history. You can have more than one pointer - more than one branch
+Also called refs or heads, Its like a post it note or a bookmark that says
+"im working here". Not stored in history. You can have more than one pointer -
+more than one branch
 
 ---
 
@@ -114,14 +132,16 @@ Also called refs or heads, Its like a post it note or a bookmark that says "im w
 ![head-ref](assets/image/head-ref.jpeg)
 
 Note:
-branched from master. HEAD ref points to active branch.
+branched from master. HEAD ref points to active branch. Now armed with this
+knowledge of gits storage and branches lets take a look at rebase and merge and
+how they work
 
 ---
 
 ## Rebase & Merge
 
 Note:
-now armed with this knowledge lets take a look at rebase and merge and how they work
+Lets find out how to use rebase and merge - what to do, what not to do
 
 
 ---?image=assets/image/git-push-force.jpg&size=auto 90%
@@ -131,6 +151,8 @@ Dont do this.
 ---
 
 ### Situation after creating the branch
+
+\> `git checkout -b my-feature master`
 
 ![branch1](assets/image/branch1.jpeg)
 
@@ -200,14 +222,20 @@ A new commit with same changes as E but a different parent. Old commit is garbag
 - Merge results in a "stitching pattern" |
 - Rebase results in a "linear" history |
 
+Note:
+The reason why rebase was of special interest to me was because of the gerrit
+code review model that i was talking about before.  
+
 ---
 
 ### Some Tips...
 - Interactive rebase to amend old commit
+<br></br>
 \> `git rebase -i master`
-- Pulling with rebase strategy
-\> `git pull --rebase`
 - "Squash"-ing commits with rebase
+- Pulling with rebase strategy
+<br></br>
+\> `git pull --rebase`
 
 
 Note:
@@ -222,13 +250,19 @@ It will seem like you've "lost" some commits (don't worry - you haven't),
 and you will panic.
 
 Note:
-It is possible to recover from that. But you dont want to have to do the additional work.
+So say you are working on a master branch and someone else is also working on
+the same branch. You push a commit, and then someone else starts basing their
+work on the work you just push. If you now go and rewrite history using rebase,
+the other person will have a hard time pushing his work to the repo.  
+It is possible to recover from that. But you dont want to have to do the
+additional work. Also this is the reason why you dont force push, others will
+have a hard time pushing their work. Lastly
 ---
 
 
-### Motivation
+### Don't be Scared!
 
-git is very forgiving, and its very easy to get out of trouble for the most part.
+git is very forgiving, and its possible to get out of trouble for the most part.
 
 - you cannot "lose" a commit |
 - work on a branch and "test it out" |
