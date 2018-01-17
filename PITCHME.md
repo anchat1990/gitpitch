@@ -124,7 +124,7 @@ Note:
 now armed with this knowledge lets take a look at rebase and merge and how they work
 
 ---
-![push-force](assets/image/git-push-force.jpg)
+<!-- ![push-force](assets/image/git-push-force.jpg) -->
 ---?image=assets/image/git-push-force.jpg&size=auto 90%
 
 Note:
