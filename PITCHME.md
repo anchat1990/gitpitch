@@ -25,7 +25,6 @@ Open github
 ![Git_commit](assets/image/git-commit.jpg)
 ---
 
----
 ![Git_commit_last_night](assets/image/commit-msg-last-night.jpg)
 ---
 ### July 2017
@@ -158,6 +157,7 @@ The post it gets moved. You will hear the words fast forward merge for this scen
 
 ### Lets try merging again
 
+\> `git merge master`
 ![both-new-commit-merge](assets/image/both-new-commits-merge.jpeg)
 
 Note:
@@ -219,6 +219,18 @@ Note:
 It is possible to recover from that. But you dont want to have to do the additional work.
 ---
 
+
+### Motivation
+
+git is very forgiving, and its very easy to get out of trouble for the most part.
+
+- you cannot "lose" a commit (`git cherry-pick`)
+- work on a branch and "test it out"
+- `git reflog`
+
+---
+
+
 ### Questions?
 
 <br>
@@ -233,7 +245,4 @@ It is possible to recover from that. But you dont want to have to do the additio
 
 ---?image=assets/image/gitpitch-audience.jpg&opacity=100
 
-@title[Download this Template!]
-
-### Get your presentation started!
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/black)
+### Thank you!
