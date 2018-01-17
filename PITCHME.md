@@ -190,9 +190,9 @@ A new commit with same changes as E but a different parent. Old commit is garbag
 ---
 
 ### Rebase Vs. Merge
-- Both achieve the same thing
-- Merge results in a "stitching pattern"
-- Rebase results in a "linear" history
+- Both achieve the same thing |
+- Merge results in a "stitching pattern" |
+- Rebase results in a "linear" history |
 
 ---
 
@@ -224,9 +224,9 @@ It is possible to recover from that. But you dont want to have to do the additio
 
 git is very forgiving, and its very easy to get out of trouble for the most part.
 
-- you cannot "lose" a commit (`git cherry-pick`)
-- work on a branch and "test it out"
-- `git reflog`
+- you cannot "lose" a commit (`git cherry-pick`) |
+- work on a branch and "test it out" |
+- `git reflog` |
 
 ---
 
