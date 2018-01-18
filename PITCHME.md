@@ -229,10 +229,9 @@ was because of the gerrit code review model that i was talking about before.
 ---
 
 ### Some Tips...
-- Interactive rebase to amend old commit
+- Interactive rebase to amend/squash/fixup old commits
 <br>
 \> `git rebase -i master`
-- "Squash"-ing commits with rebase
 
 ---
 
