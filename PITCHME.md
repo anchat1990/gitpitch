@@ -246,18 +246,22 @@ then * see reflog to reset * show log `git log --graph --oneline --all` * rerere
 
 ### Warning
 
-Do not rebase public branches (that others have pushed more commits to).
-It will seem like you've "lost" some commits (don't worry - you haven't),
+Do not rebase public branches (Branches that others are working on too).
+It will seem like others have "lost" some commits (don't worry - they haven't),
 and you will panic.
 
 Note:
+If anyone else is working on a branch, dont rebase it. It will seem like your
+workflows have diverged because you have changed history. it is possible to
+recover from it, you can merge the two branches but everything will appear twice
+plus a merge commit.
 So say you are working on a master branch and someone else is also working on
 the same branch. You push a commit, and then someone else starts basing their
 work on the work you just push. If you now go and rewrite history using rebase,
 the other person will have a hard time pushing his work to the repo.  
 It is possible to recover from that. But you dont want to have to do the
 additional work. Also this is the reason why you dont force push, others will
-have a hard time pushing their work. Lastly
+have a hard time pushing their work. Lastly...
 ---
 
 
