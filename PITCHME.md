@@ -233,14 +233,14 @@ was because of the gerrit code review model that i was talking about before.
 <br>
 \> `git rebase -i master`
 - "Squash"-ing commits with rebase
-- Pulling with rebase strategy
-<br>
-\> `git pull --rebase`
+
+---
+
+## Demo time!
 
 
 Note:
-normally git pull uses merge, but you can specify that it use rebase instead.
-live demo of git rebase vs. merge? * sha1 of the merge commits vs rebased commits
+demo* sha1 of the merge commits vs rebased commits
 then * see reflog to reset * show log `git log --graph --oneline --all` * rerere
 
 ---
