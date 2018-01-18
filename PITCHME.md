@@ -186,7 +186,8 @@ The post it gets moved. You will hear the words fast forward merge for this scen
 ![both-new-commit-merge](assets/image/both-new-commits-merge.jpeg)
 
 Note:
-F is a merge commit. see that it has 2 parents. it incorporates changes from both D and E
+F is a merge commit. The merge commit "ties together" history of both branches.
+see that it has 2 parents. it incorporates changes from both D and E
 
 ---
 
@@ -195,7 +196,9 @@ F is a merge commit. see that it has 2 parents. it incorporates changes from bot
 ![many-merges](assets/image/many-merges.jpeg)
 
 Note:
-we keep merging, and the git history gets littered with merge commits. Because i used gerrit, i was only allowed to have 1 commit per CR, and thats why i had to learn how to rebase.
+we keep merging, and the git history gets littered with merge commits.
+Because i used gerrit, i was only allowed to have 1 commit per CR, and thats why
+i had to learn how to rebase.
 ---
 
 ### Case 2: Both my-feature and master have new commits
@@ -220,8 +223,8 @@ A new commit with same changes as E but a different parent. Old commit is garbag
 - Rebase results in a "linear" history |
 
 Note:
-The reason why rebase was of special interest to me was because of the gerrit
-code review model that i was talking about before.  
+Merge is non destructive. The reason why rebase was of special interest to me
+was because of the gerrit code review model that i was talking about before.  
 
 ---
 
@@ -236,7 +239,9 @@ code review model that i was talking about before.
 
 
 Note:
-normally git pull uses merge, but you can specify that it use rebase instead
+normally git pull uses merge, but you can specify that it use rebase instead.
+live demo of git rebase vs. merge? * sha1 of the merge commits vs rebased commits
+then * see reflog to reset * show log `git log --graph --oneline --all` * rerere
 
 ---
 
