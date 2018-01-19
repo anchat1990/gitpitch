@@ -267,11 +267,11 @@ have a hard time pushing their work. Lastly...
 
 ### Don't be Scared!
 
-git is very forgiving, and its possible to get out of trouble for the most part.
+Git is very forgiving, and its possible to get out of trouble for the most part.
 
-- you cannot "lose" a commit |
-- work on a branch and "test it out" |
-- use reflog |
+- You cannot "lose" a commit |
+- Work on a branch and "test it out" |
+- Use reflog |
 
 Note:
 use cherry-pick
