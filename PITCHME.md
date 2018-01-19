@@ -3,9 +3,8 @@
 #### Even the scary parts
 
 Note:
-This is a story about how i pushed myself to go further than the git basics -
-like clone, add, commit, push, pull... and learnt how to be okay with the scary
-parts - which for me, was mainly git-rebase.
+This is a story of how I overcame my fear of git, and pushed myself to go
+further than the basic commands.
 
 ---
 
@@ -44,9 +43,9 @@ as these...
 - Now less scared of git (I think...) |
 
 Note:
-Gerrit has a single commit CR model. You can have only one commit associated
-with a CR. This forced me to learn how to rebase as i couldnt put merge commits
-into my PR !open gerrit! In order to understand rebase I needed to understand how
+Gerrit has a single commit CR model. Dan said i cant have merge commits in my CRs
+, so i need to reluctantly learn rebase.
+!open gerrit! In order to understand rebase I needed to understand how
 git works under the hood. So...
 
 ---
@@ -213,7 +212,8 @@ i had to learn how to rebase.
 ![both-new-commit-rebase](assets/image/both-new-commit-rebase.jpeg)
 
 Note:
-A new commit with same changes as E but a different parent. Old commit is garbage collected. pointer moves to new commit. git rebase also works with multiple commits.
+A new commit with same changes as E but a different parent. Old commit is garbage collected.
+pointer moves to new commit. git rebase also works with multiple commits.
 
 ---
 
@@ -241,6 +241,7 @@ was because of the gerrit code review model that i was talking about before.
 Note:
 demo* sha1 of the merge commits vs rebased commits
 then * see reflog to reset * show log `git log --graph --oneline --all` * rerere
+who else gets a bit anxious when they see this message?
 
 ---
 
@@ -254,14 +255,7 @@ Note:
 If anyone else is working on a branch, dont rebase it. It will seem like your
 workflows have diverged because you have changed history. it is possible to
 recover from it, you can merge the two branches but everything will appear twice
-plus a merge commit.
-So say you are working on a master branch and someone else is also working on
-the same branch. You push a commit, and then someone else starts basing their
-work on the work you just push. If you now go and rewrite history using rebase,
-the other person will have a hard time pushing his work to the repo.  
-It is possible to recover from that. But you dont want to have to do the
-additional work. Also this is the reason why you dont force push, others will
-have a hard time pushing their work. Lastly...
+plus a merge commit. Lastly...
 ---
 
 
