@@ -261,7 +261,7 @@ plus a merge commit. Lastly...
 
 ### Don't be Scared!
 
-Git is very forgiving, and its possible to get out of trouble for the most part.
+Git is very forgiving, and it's possible to get out of trouble for the most part.
 
 - You cannot "lose" a commit |
 - Work on a branch and "test it out" |
