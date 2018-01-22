@@ -1,5 +1,5 @@
 ### Understanding Git
-
+ 
 #### Even the scary parts
 
 Note:
