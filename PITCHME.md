@@ -112,7 +112,7 @@ No parent means initial commit. More than one means merge commit.
 - Can have multiple branches
 
 
-![Git-branch](assets/image/git-branch.jpeg)
+![branch](assets/image/branch1.jpeg)
 
 Note:
 Also called refs or heads, Its like a post it note or a bookmark that says
