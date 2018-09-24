@@ -1,5 +1,5 @@
 ### Understanding Git
- 
+
 #### Even the scary parts
 
 Note:
@@ -47,6 +47,20 @@ Gerrit has a single commit CR model. Dan said i cant have merge commits in my CR
 , so i need to reluctantly learn rebase.
 !open gerrit! In order to understand rebase I needed to understand how
 git works under the hood. So...
+
+---
+
+### May 2018
+
+#### Developer @ REA Group
+
+-   Worked on realestate.com.au/buy |
+-   Use github for code review |
+-   First time pairing - multiple people on the same branch |
+-   Large team - lots of rebasing |
+
+Note:
+trickier operations in git with multiple team members.
 
 ---
 
