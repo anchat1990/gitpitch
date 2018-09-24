@@ -54,13 +54,14 @@ git works under the hood. So...
 
 #### Developer @ REA Group
 
--   Worked on realestate.com.au/buy |
+-   Work on www.realestate.com.au/buy |
 -   Use github for code review |
 -   First time pairing - multiple people on the same branch |
--   Large team - lots of rebasing |
+-   Large team - lots of rebasing! |
 
 Note:
 trickier operations in git with multiple team members.
+Source tree.
 
 ---
 
@@ -261,15 +262,12 @@ who else gets a bit anxious when they see this message?
 
 ### Warning
 
-Do not rebase public branches (Branches that others are working on too).
-It will seem like others have "lost" some commits (don't worry - they haven't),
-and you will panic.
+Do not rebase public branches (Branches that others are working on too) without warning your pair!
+It will seem like your histories have diverged and it gets messy.
 
 Note:
-If anyone else is working on a branch, dont rebase it. It will seem like your
-workflows have diverged because you have changed history. it is possible to
-recover from it, you can merge the two branches but everything will appear twice
-plus a merge commit. Lastly...
+When you rebase and force push you are rewriting history.
+If anyone else is working on a branch, it will be confusing as their changes are based on a different commit to what you have now pushed up, even though it looks like the same commit message. Lastly...
 ---
 
 
