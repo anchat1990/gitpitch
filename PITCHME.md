@@ -40,7 +40,7 @@ as these...
 
 - Worked on open source beaker-project |
 - Use Gerrit for code reviews |
-- Now less scared of git (I think...) |
+- Less scared of git (I think...) |
 
 Note:
 Gerrit has a single commit CR model. Dan said i cant have merge commits in my CRs
@@ -55,9 +55,11 @@ git works under the hood. So...
 #### Developer @ REA Group
 
 -   Work on www.realestate.com.au/buy |
--   Use github for code review |
+-   Use Github for code review |
 -   First time pairing - multiple people on the same branch |
 -   Large team - lots of rebasing! |
+-   Now a git cowbow |
+-   (not really) |
 
 Note:
 trickier operations in git with multiple team members.
