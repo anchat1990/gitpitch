@@ -154,7 +154,7 @@ how they work
 ## Rebase & Merge
 
 Note:
-Lets find out how to use rebase and merge 
+Lets find out how to use rebase and merge
 ---
 
 ### Situation after creating the branch
@@ -280,6 +280,13 @@ use cherry-pick
 
 ---
 
+### References
+
+- https://git-scm.com/
+- https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+- http://eagain.net/articles/git-for-computer-scientists/
+
+---
 
 ### Questions?
 
