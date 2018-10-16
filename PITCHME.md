@@ -58,7 +58,7 @@ git works under the hood. So...
 -   Use Github for code review |
 -   First time pairing - multiple people on the same branch |
 -   Large team - lots of rebasing! |
--   Now a git cowbow |
+-   Now a git rockstar |
 -   (not really) |
 
 Note:
@@ -154,13 +154,7 @@ how they work
 ## Rebase & Merge
 
 Note:
-Lets find out how to use rebase and merge - what to do, what not to do
-
-
----?image=assets/image/git-push-force.jpg&size=auto 90%
-
-Note:
-Dont do this.
+Lets find out how to use rebase and merge 
 ---
 
 ### Situation after creating the branch
