@@ -265,6 +265,8 @@ Note:
 When you rebase and force push you are rewriting history.
 If anyone else is working on a branch, it will be confusing as their changes are based on a different commit to what you have now pushed up, even though it looks like the same commit message. Lastly...
 ---
+![Git_push-force](assets/image/git-push-force.jpg)
+---
 
 
 ### Don't be Scared!
