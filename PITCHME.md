@@ -58,7 +58,7 @@ git works under the hood. So...
 -   Use Github for code review |
 -   First time pairing - multiple people on the same branch |
 -   Large team - lots of rebasing! |
--   Now a git rockstar |
+-   Now a git rockstar 🎸|
 -   (not really) |
 
 Note:
