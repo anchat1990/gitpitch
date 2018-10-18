@@ -259,6 +259,7 @@ who else gets a bit anxious when they see this message?
 ### Warning
 
 ⚠️ Rebase public branches with caution ⚠️
+
 Done incorrectly, it may seem like your histories have diverged and it can get messy.
 
 Note:
