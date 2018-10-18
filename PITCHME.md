@@ -1,6 +1,6 @@
 ### Understanding Git
 
-#### Even the scary parts
+#### Even the scary parts 👻
 
 Note:
 This is a story of how I overcame my fear of git, and pushed myself to go
@@ -8,7 +8,7 @@ further than the basic commands.
 
 ---
 
-### First, a bit about my journey so far
+### First, a bit about my journey so far 🤓
 
 Note:
 but first I'd like to tell you about my git journey so far
@@ -18,7 +18,7 @@ but first I'd like to tell you about my git journey so far
 #### Graduate Software Engineer @ Boeing
 
 - Never used version control before |
-- Very scared of git |
+- Very scared of git 😟|
 - Primarily used PyCharm tools |
 - Used Bitbucket for code reviews |
 
@@ -40,7 +40,7 @@ as these...
 
 - Worked on open source beaker-project |
 - Use Gerrit for code reviews |
-- Less scared of git (I think...) |
+- Less scared of git 👍 (I think...) |
 
 Note:
 Gerrit has a single commit CR model. Dan said i cant have merge commits in my CRs
@@ -54,9 +54,9 @@ git works under the hood. So...
 
 #### Developer @ REA Group
 
--   Work on www.realestate.com.au/buy |
+-   Work on www.realestate.com.au 🏠|
 -   Use Github for code review |
--   First time pairing - multiple people on the same branch |
+-   First time pairing - multiple people on the same branch 🤝|
 -   Large team - lots of rebasing! |
 -   Now a git rockstar 🎸|
 -   (not really) |
@@ -246,7 +246,7 @@ was because of the gerrit code review model that i was talking about before.
 
 ---
 
-## Demo time!
+## Demo time 🔥
 
 
 Note:
@@ -258,22 +258,22 @@ who else gets a bit anxious when they see this message?
 
 ### Warning
 
-Do not rebase public branches (Branches that others are working on too) without warning your pair!
-It will seem like your histories have diverged and it gets messy.
+⚠️ Rebase public branches with caution ⚠️
+Done incorrectly, it may seem like your histories have diverged and it can get messy.
 
 Note:
 When you rebase and force push you are rewriting history.
 If anyone else is working on a branch, it will be confusing as their changes are based on a different commit to what you have now pushed up, even though it looks like the same commit message. Lastly...
 ---
 
-### This is evil
+### This is evil 😈
 <img src="assets/image/git-push-force.jpg" alt="drawing" width="400"/>
 ---
 
 
 ### Don't be Scared!
 
-Git is very forgiving, and it's possible to get out of trouble for the most part.
+Git is very forgiving, and it's possible to get out of trouble for the most part 👌
 
 - You cannot "lose" a commit |
 - Work on a branch and "test it out" |
